@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 
 const FeatureSection = () => {
   return (
-    <section className="h-[30rem] bg-gradient-to-b from-chablis to-white">
+    <section className="h-120 bg-gradient-to-b from-chablis to-white">
       <div className="relative text-center flex flex-col items-center justify-center py-28">
         <span className="text-carnation text-[48px] font-bold leading-tight">
           What’s waiting for you
@@ -18,8 +18,8 @@ const FeatureSection = () => {
         </span>
         <div className="relative">
           <img src={PHONE_IMG_URL} alt="" className="w-[18rem] mt-6" />
-          <div className="absolute top-[8.5rem] left-[4.5rem] shadow-2xl bg-white rounded-3xl flex flex-col items-center justify-center border border-athens-gray py-4 pb-2 ">
-            <img src={CALENDAR_IMG_URL} alt="" className="w-[144px] h-[90px]" />
+          <div className="absolute top-34 left-18 shadow-2xl bg-white rounded-3xl flex flex-col items-center justify-center border border-athens-gray py-4 pb-2 ">
+            <img src={CALENDAR_IMG_URL} alt="" className="w-36 h-23" />
             <span>
               Schedule
               <br />
@@ -27,14 +27,14 @@ const FeatureSection = () => {
             </span>
           </div>
         </div>
-        <FeatureCard Title="Veg Mode" ImgUrl={VEG_MODE_IMG_URL} className="bottom-[18rem] left-[23.5rem] "/>
-        <FeatureCard Title="Healthy" ImgUrl={HEALTHY_IMG_URL} className="bottom-[16rem] left-[15rem]"/>
-        <FeatureCard Title="Plan a Party" ImgUrl={PARTY_IMG_URL} className="bottom-[7rem] left-[15rem]"/>
-        <FeatureCard Title="Gift Cards" ImgUrl={GIFT_CARDS_IMG_URL} className="bottom-[9rem] left-[25rem]"/>
-        <FeatureCard Title="Gourmet" ImgUrl={GOURMET_IMG_URL} className="bottom-[16rem] right-[27rem]"/>
-        <FeatureCard Title="Offers" ImgUrl={OFFERS_IMG_URL} className="bottom-[17.5rem] right-[18.5rem]"/>
-        <FeatureCard Title="Food on Train" ImgUrl={FOOD_ON_TRAIN_IMG_URL} className="bottom-[7rem] right-[25.5rem]"/>
-        <FeatureCard Title="Collections" ImgUrl={COLLECTIONS_IMG_URL} className="bottom-[8.5rem] right-[17rem]"/>
+        <FeatureCard Title="Veg Mode" ImgUrl={VEG_MODE_IMG_URL} className="bottom-72 left-94 "/>
+        <FeatureCard Title="Healthy" ImgUrl={HEALTHY_IMG_URL} className="bottom-64 left-60"/>
+        <FeatureCard Title="Plan a Party" ImgUrl={PARTY_IMG_URL} className="bottom-28 left-60"/>
+        <FeatureCard Title="Gift Cards" ImgUrl={GIFT_CARDS_IMG_URL} className="bottom-36 left-100"/>
+        <FeatureCard Title="Gourmet" ImgUrl={GOURMET_IMG_URL} className="bottom-64 right-108"/>
+        <FeatureCard Title="Offers" ImgUrl={OFFERS_IMG_URL} className="bottom-70 right-74"/>
+        <FeatureCard Title="Food on Train" ImgUrl={FOOD_ON_TRAIN_IMG_URL} className="bottom-28 right-102"/>
+        <FeatureCard Title="Collections" ImgUrl={COLLECTIONS_IMG_URL} className="bottom-34 right-68"/>
       </div>
     </section>
   );

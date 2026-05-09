@@ -11,16 +11,16 @@ const Download = () => {
           only on the Zomato app
         </span>
         <div className="flex gap-4 mt-6">
-          <img src={PLAY_STORE_URL} alt="" className="w-[188px] h-[56px]" />
-          <img src={APP_STORE_URL} alt="" className="w-[167px] h-[56px]" />
+          <img src={PLAY_STORE_URL} alt="" className="w-47 h-14" />
+          <img src={APP_STORE_URL} alt="" className="w-42 h-14" />
         </div>
       </div>
       <div className="relative ">
-<img src={PHONE_IMG_URL} alt="" className="w-[28rem] h-[29rem ]" />
-<span className="w-[16rem] absolute left-[6rem] top-32 text-center text-2xl text-gary700 font-bold ">
+<img src={PHONE_IMG_URL} alt="" className="w-md h-[29rem ]" />
+<span className="w-[16rem] absolute left-24 top-32 text-center text-2xl text-gary700 font-bold ">
 Scan the QR code to <br /> download the app
 </span>
-<img src={QR_CODE_IMG_URL} alt="" className="absolute w-[14rem] left-[7rem] bottom-8 " />
+<img src={QR_CODE_IMG_URL} alt="" className="absolute w-56 left-28 bottom-8 " />
       </div>
     </section>
   );

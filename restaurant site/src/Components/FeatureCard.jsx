@@ -10,7 +10,7 @@ const FeatureCard = (props) => {
       <img
         src={props.ImgUrl}
         alt={props.Title}
-        className="w-[111px] h-[70px]"
+        className="w-28 h-18"
       />
       <span className="text-ebony-clay py-2">{props.Title}</span>
     </div>

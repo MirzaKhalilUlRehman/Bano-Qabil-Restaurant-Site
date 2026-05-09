@@ -14,7 +14,7 @@ import {
 
 const OrderSection = () => {
   return (
-    <section className="h-[37rem] relative">
+    <section className="h-148 relative">
       <div className="absolute left-0 -top-44 h-auto w-[70%] translate-x-[-70%]">
         <img src={LEFT_SIDE_LINE} alt="" className="h-auto w-full" />
       </div>
@@ -24,17 +24,17 @@ const OrderSection = () => {
       <img
         src={BURGER_IMG_URL}
         alt=""
-        className="w-[15rem] absolute left-52 top-10"
+        className="w-60 absolute left-52 top-10"
       />
       <img
         src={MOMOS_IMG_URL}
         alt=""
-        className="w-[15rem] h-[13rem] absolute right-52 -top-44"
+        className="w-60 h-52 absolute right-52 -top-44"
       />
       <img
         src={PIZZA_IMG_URL}
         alt=""
-        className="w-[15rem]  absolute right-36 top-40"
+        className="w-60  absolute right-36 top-40"
       />
       <img
         src={TOMATO_IMG_URL}
@@ -51,17 +51,17 @@ const OrderSection = () => {
         alt=""
         className="w-12  absolute right-32 top-10 rotate-45"
       />
-      <div className="w[30%] text-center m-auto flex items-center justify-center flex-col mt-[14rem] ">
-        <span className=" text-carnation text-5xl font-bold leading-[3.5rem]">
+      <div className="w[30%] text-center m-auto flex items-center justify-center flex-col mt-56 ">
+        <span className=" text-carnation text-5xl font-bold leading-14">
           Better food for <br />
           more people
         </span>
-        <span className="text-comet text-xl mt-8 w-[25rem] ">
+        <span className="text-comet text-xl mt-8 w-100">
           For over a decade, we’ve enabled our customers to discover new tastes,
           delivered right to their doorstep
         </span>
       </div>
-      <div className="rounded-4xl bg-white shadow-2xl w-[53%] m-auto py-6 px-7 flex items-center mt-[10rem]">
+      <div className="rounded-4xl bg-white shadow-2xl w-[53%] m-auto py-6 px-7 flex items-center mt-40">
         <div className="flex items-center justify-center gap-3 flex-1 border-r border-gray-200 pr-5">
           <div className="flex flex-col">
             <span className="text-comet text-3xl font-bold">3,00,000+</span>
